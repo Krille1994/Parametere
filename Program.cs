@@ -21,6 +21,7 @@ namespace Parametere
             HundreX(1337);
             Console.WriteLine();
 
+
             // Uten params nøkkelordet ville det sett sånn ut:
             // var listeMedBitches = new Folk(new string[] {"Henrik", "Flemming", "Stian", "Erik", "Sindre", "Tobias"})
 
@@ -32,11 +33,16 @@ namespace Parametere
             var bitch2 = listeMedBitches.FindBitch("Stian");
             Console.WriteLine(bitch2);
         }
+
+
             // Metode som tar imot en parameter typ string og skriver dette i consollen
+
         static void SiHallo(string navn)
         {
             Console.WriteLine($"Hallo {navn} :D");
         }
+
+
 
         // Metode som tar imot en parameter typ int og skriver ut tallet ganger 100
 
